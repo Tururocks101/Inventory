@@ -1,4 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-info bg-info">
+    {% if user.is_authenticated %}
     <div class="container">
         
         <a class="navbar-brand text-white" href="{% url 'dashboard-index' %}">Inventory</a>
@@ -33,7 +34,7 @@
                     <a class="nav-link text-white" href="{% url 'user-login' %}">Login</a>
                 </li>
             </ul>
-            
+             {% endif %}
         </div>
     </div>
 </nav>
