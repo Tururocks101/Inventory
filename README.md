@@ -20,8 +20,7 @@ To get a development env running, use the **.env.example** file to create a **.e
 
 ### Screenshots
 
-![registration](https://user-images.githubusercontent.com/95218150/162892954-5a57f5d9-2881-4992-84f5-64c7d5048617.png)
-
+![registration ](https://user-images.githubusercontent.com/95218150/162896625-4f0d5e12-2bf0-4ece-a637-298caa65691e.png)
 
 ![profile](https://user-images.githubusercontent.com/95218150/162893094-0d095898-5a54-42af-8ced-1a20793a557e.png)
 
