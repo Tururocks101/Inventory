@@ -3,7 +3,7 @@
 
 {% block content %}
 
-{% if user.is_athenticated and.is_staff and user.is_superuser %}
+
 
 {% include 'partials/topnav.html'%}
 
@@ -102,8 +102,7 @@
     </div>
 </div>
 
-{% else %}
-{% include 'dashboard/staff_index.html' %}
-{% endif %}
+
+
 
 {% endblock %}
